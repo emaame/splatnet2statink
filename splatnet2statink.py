@@ -227,7 +227,7 @@ def main():
 
 	return m_value, is_s, is_t, is_r, is_ignore_private, filename
 
-def monitor_battles(s_flag, t_flag, r_flag, secs, debug):
+def monitor_battles(s_flag, t_flag, r_flag, ignore_private_flag, secs, debug):
 	'''Monitor JSON for changes/new battles and upload them.'''
 
 	# initial checks
